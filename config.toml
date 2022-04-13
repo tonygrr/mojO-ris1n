@@ -1,4 +1,4 @@
-ЫbaseURL = "https://tonygrr.github.io/quartz/"
+baseURL = "https://tonygrr.github.io/quartz/"
 languageCode = "en-us"
 googleAnalytics = "G-XYFD95KB4J"
 pygmentsUseClasses = true
