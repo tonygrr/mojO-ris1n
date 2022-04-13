@@ -1,5 +1,5 @@
 ---
-title: 🪴 Quartz 3.2
+title: 🪴 Mojo Risin'
 ---
 
 # Оглавление
