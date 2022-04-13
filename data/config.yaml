@@ -1,6 +1,6 @@
 name: Mojo Risin
 enableToc: true
-openToc: true
+openToc: false
 enableLinkPreview: true
 enableLatex: true
 description:
