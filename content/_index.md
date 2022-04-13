@@ -2,6 +2,8 @@
 title: 🪴 Mojo Risin'
 ---
 
-# Оглавление
+Тестовый вариант Digital Garden в связке Quartz + Obsidian.
+
+---
 
 - [[Radio Engineering]]
