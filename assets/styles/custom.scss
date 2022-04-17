@@ -25,6 +25,7 @@
   --lightpastel: #372a45a3;
 }
 
+/* Img */
 body {
   img {
     width: 100%;
@@ -49,4 +50,11 @@ body {
   background: var(--lightpastel);
   border-radius: 5px;
   padding: .75em 1em;
+}
+
+/* Hashtag color */
+article>.tags>li>a::before {
+  content: "#";
+  margin-right: .3em;
+  color: var(--secondary);
 }
