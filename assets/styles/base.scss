@@ -193,7 +193,7 @@ article {
   }
 
   & a {
-    font-family: 'Roboto Mono', monospace;;
+    font-family: 'JetBrains Mono';
     font-weight: 600;
 
     &.internal-link {
@@ -343,7 +343,7 @@ hr {
 }
 
 article > h1 {
-  font-size: 2em;
+  font-size: 1.7em;
   font-family: "JetBrains Mono";
 }
 
@@ -353,7 +353,7 @@ header {
   align-items: center;
 
   & > h1 {
-    font-size: 2em;
+    font-size: 1.7em;
   }
 
   & > nav {
