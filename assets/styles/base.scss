@@ -5,12 +5,10 @@
   font-family: "iA Writer Mono S";
   font-style: normal;
   font-weight: 400;
-  /* Браузер сначала попробует найти шрифт локально */
-  src: local("iAWriterMonoS-Regular"),
-       /* Если не получилось, загрузит woff2 */
+  src: local("../fonts/iAWriterMonoS-Regular.woff") format("woff"),
        url("../fonts/iAWriterMonoS-Regular.woff2") format("woff2"),
-       /* Если браузер не поддерживает woff2, загрузит woff */
-       url("../fonts/iAWriterMonoS-Regular.woff") format("woff");
+       url("../fonts/iAWriterMonoS-Regular.woff") format("woff"),
+       url("../fonts/iAWriterMonoS-Regular.eot") format("eot");
 }
 
 
@@ -32,7 +30,7 @@ h1, h2, h3, h4, h5, h6, ol, ul, thead {
 }
 
 p, ul, text {
-  font-family: 'iA Writer Mono S';
+  font-family: "iA Writer Mono S";
   line-height: 1.5em;
   color: var(--gray);
   fill: var(--gray);
@@ -80,7 +78,7 @@ p, ul, text {
   }
 
   & > li::marker, & > li > ol > li::marker {
-    font-family: 'A Writer Mono S';
+    font-family: "iA Writer Mono S";
     font-weight: 700;
   }
 }
@@ -105,7 +103,7 @@ sup {
 }
 
 p, tbody, li {
-  font-family: 'A Writer Mono S';
+  font-family: "iA Writer Mono S";
   color: var(--gray);
   line-height: 1.5em;
 }
@@ -206,7 +204,7 @@ article {
   }
 
   & a {
-    font-family: 'A Writer Mono S';
+    font-family: "iA Writer Mono S";
     font-weight: 600;
 
     &.internal-link {
