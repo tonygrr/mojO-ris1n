@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
 :root {
   --lt-colours-light: var(--light) !important;
@@ -11,7 +10,7 @@
 }
 
 h1, h2, h3, h4, h5, h6, ol, ul, thead {
-  font-family: 'Spectral SC';
+  font-family: 'JetBrains Mono';
   color: var(--dark);
   font-weight: revert;
   margin: revert;
@@ -138,7 +137,7 @@ td, th {
 
     & a {
       background-color: transparent !important;
-      font-family: 'Spectral SC';
+      font-family: 'JetBrains Mono';
     }
 
     & a[href$="#"] {
@@ -150,7 +149,7 @@ td, th {
 .section {
   & h3 > a {
     font-weight: 700;
-    font-family: 'Spectral SC';
+    font-family: 'JetBrains Mono';
     margin: 0;
   }
   & p {
@@ -346,7 +345,7 @@ hr {
 
 article > h1 {
   font-size: 1.7em;
-  font-family: 'Spectral SC';
+  font-family: 'JetBrains Mono';
 }
 
 header {
@@ -419,7 +418,7 @@ header {
     & > input {
       box-sizing: border-box;
       padding: 0.5em 1em;
-      font-family: 'Spectral SC', sans-serif;
+      font-family: 'JetBrains Mono', sans-serif;
       color: var(--dark);
       font-size: 1.1em;
       border: 1px solid var(--outlinegray);
@@ -554,7 +553,7 @@ header {
   & > .meta {
     margin-top: 0.25em;
     opacity: 0.5;
-    font-family: 'Spectral SC';
+    font-family: 'JetBrains Mono';
     font-size: 0.8rem;
   }
 
