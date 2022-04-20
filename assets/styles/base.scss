@@ -1,16 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
-@font-face {
-  font-family: "iA Writer Mono S";
-  font-style: normal;
-  font-weight: 400;
-  src: local("../fonts/iAWriterMonoS-Regular.woff") format("woff"),
-       url("../fonts/iAWriterMonoS-Regular.woff2") format("woff2"),
-       url("../fonts/iAWriterMonoS-Regular.woff") format("woff"),
-       url("../fonts/iAWriterMonoS-Regular.eot") format("eot");
-}
-
 
 :root {
   --lt-colours-light: var(--light) !important;
@@ -30,7 +19,7 @@ h1, h2, h3, h4, h5, h6, ol, ul, thead {
 }
 
 p, ul, text {
-  font-family: "iA Writer Mono S";
+  font-family: 'Roboto Mono', monospace;;
   line-height: 1.5em;
   color: var(--gray);
   fill: var(--gray);
@@ -78,7 +67,7 @@ p, ul, text {
   }
 
   & > li::marker, & > li > ol > li::marker {
-    font-family: "iA Writer Mono S";
+    font-family: 'Roboto Mono', monospace;;
     font-weight: 700;
   }
 }
@@ -103,7 +92,7 @@ sup {
 }
 
 p, tbody, li {
-  font-family: "iA Writer Mono S";
+  font-family: 'Roboto Mono', monospace;;
   color: var(--gray);
   line-height: 1.5em;
 }
@@ -204,7 +193,7 @@ article {
   }
 
   & a {
-    font-family: "iA Writer Mono S";
+    font-family: 'Roboto Mono', monospace;;
     font-weight: 600;
 
     &.internal-link {
@@ -237,7 +226,7 @@ sup > a {
 }
 
 a {
-  font-family: "JetBrains Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 1em;
   font-weight: 700;
   text-decoration: none;
@@ -280,7 +269,7 @@ body {
   height: 100vh;
   width: 100vw;
   //overflow-x: hidden;
-  max-width: 150%;
+  max-width: 100%;
   box-sizing: border-box;
   background-color: var(--light);
 }
