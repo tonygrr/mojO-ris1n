@@ -190,7 +190,7 @@ article {
       font-family: 'JetBrains Mono';
       text-transform: lowercase; // +++
       font-size: 1rem; // +++
-      font-weight: revert; // +++
+      font-weight: 700; // +++
       &::before {
         content: "#";
         margin-right: 0.3em;
@@ -209,6 +209,7 @@ article {
       padding: 0 0.1em;
       margin: auto -0.1em;
       border-radius: 3px;
+      font-weight: 600;
 
       &.broken {
         opacity: 0.5;
@@ -224,7 +225,7 @@ article {
 
 .backlinks a {
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 sup > a {
