@@ -80,7 +80,7 @@ p, ul, text {
   }
 
   & > li::marker, & > li > ol > li::marker {
-    font-family: 'Spectral';
+    font-family: 'A Writer Mono S';
     font-weight: 700;
   }
 }
@@ -105,7 +105,7 @@ sup {
 }
 
 p, tbody, li {
-  font-family: Spectral;
+  font-family: 'A Writer Mono S';
   color: var(--gray);
   line-height: 1.5em;
 }
@@ -206,7 +206,7 @@ article {
   }
 
   & a {
-    font-family: Spectral, serif;
+    font-family: 'A Writer Mono S';
     font-weight: 600;
 
     &.internal-link {
