@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
 
 :root {
   --lt-colours-light: var(--light) !important;
@@ -18,7 +19,7 @@ h1, h2, h3, h4, h5, h6, ol, ul, thead {
 }
 
 p, ul, text {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Spectral', serif;
   line-height: 1.5em;
   color: var(--gray);
   fill: var(--gray);
@@ -66,7 +67,7 @@ p, ul, text {
   }
 
   & > li::marker, & > li > ol > li::marker {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Spectral', serif;
     font-weight: 700;
   }
 }
@@ -91,7 +92,7 @@ sup {
 }
 
 p, tbody, li {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Spectral', serif;
   color: var(--gray);
   line-height: 1.5em;
 }
@@ -194,7 +195,7 @@ article {
   }
 
   & a {
-    font-family: 'JetBrains Mono';
+    font-family: 'Spectral', serif;
     font-weight: 600;
 
     &.internal-link {
@@ -227,7 +228,7 @@ sup > a {
 }
 
 a {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Spectral', serif;
   font-size: 1em;
   font-weight: 700;
   text-decoration: none;
