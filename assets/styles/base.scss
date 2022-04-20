@@ -13,7 +13,7 @@
 h1, h2, h3, h4, h5, h6, ol, ul, thead {
   font-family: 'JetBrains Mono';
   color: var(--dark);
-  font-weight: 500; // changed revert;
+  font-weight: revert;
   margin: revert;
   padding: revert;
 }
@@ -188,9 +188,9 @@ article {
       padding: 0.2em 0.5em;
       margin: 3px; // changed
       font-family: 'JetBrains Mono';
-      text-transform: lowercase;
-      font-size: 1rem;
-      font-weight: 600;
+      text-transform: lowercase; // +++
+      font-size: 1rem; // +++
+      font-weight: revert; // +++
       &::before {
         content: "#";
         margin-right: 0.3em;
@@ -201,7 +201,7 @@ article {
 
   & a {
     font-family: 'Spectral', serif;
-    font-weight: 600;
+    font-weight: revert; // changed
 
     &.internal-link {
       text-decoration: none;
