@@ -1,5 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@font-face {
+  font-family: "iA Writer Mono S";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("iAWriterMonoS-Regular"),
+       /* Если не получилось, загрузит woff2 */
+       url("../fonts/iAWriterMonoS-Regular.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("../fonts/iAWriterMonoS-Regular.woff") format("woff");
+}
+
 
 :root {
   --lt-colours-light: var(--light) !important;
@@ -19,7 +32,8 @@ h1, h2, h3, h4, h5, h6, ol, ul, thead {
 }
 
 p, ul, text {
-  font-family: 'Spectral', sans-serif;
+  font-family: 'iA Writer Mono S';
+  line-height: 1.5em;
   color: var(--gray);
   fill: var(--gray);
   font-weight: revert;
@@ -343,6 +357,7 @@ hr {
 
 article > h1 {
   font-size: 2em;
+  font-family: "JetBrains Mono";
 }
 
 header {
