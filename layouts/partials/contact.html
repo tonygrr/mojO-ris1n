@@ -3,7 +3,7 @@
     <footer>
         <p>Сделано с любовью {{ $.Site.Data.config.name }}, с использованием <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © {{ dateFormat "2006" now }}</p>
         <ul>
-            {{ if not .IsHome }}S
+            {{ if not .IsHome }}
             <li><a href="/">Home</a></li>
             {{end}}
             {{- range $.Site.Data.config.links -}}
