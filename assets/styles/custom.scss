@@ -71,6 +71,7 @@ body {
   border-radius: 5px;
   padding: .75em 1em;
 }
+
 /* header */
 .mainTOC details summary {
   cursor: pointer;
@@ -86,6 +87,10 @@ body {
 /* Backlink */
 .page-end>.backlinks-container>ul>li {
   font-family: 'JetBrains Mono';
+}
+.backlinks a {
+  font-weight: 600;
+  font-size:1em;
 }
 
 /* HR */
