@@ -1,5 +1,5 @@
 ---
-title: Mojo Risin' 🪴
+title: Mojo Risin'🌳🌲🌳
 ---
 
 - [[Radio Engineering]]
