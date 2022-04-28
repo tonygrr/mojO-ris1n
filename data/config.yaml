@@ -1,4 +1,4 @@
-name: Mojo Risin
+name: Mojo Risin'
 enableToc: true
 openToc: false
 enableLinkPreview: false
@@ -6,7 +6,7 @@ enableLatex: true
 description:
   Тестовая страничка в сети.
 page_title:
-  "🪴 Mojo Risin'"
+  "Mojo Risin' 🪴"
 links:
   - link_name: Pentagon
     link: https://www.youtube.com/watch?v=dQw4w9WgXcQ
