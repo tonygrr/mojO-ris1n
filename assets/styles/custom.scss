@@ -81,3 +81,8 @@ body {
 .mainTOC details[open] summary {
   cursor: pointer;
 }
+
+/* Backlink */
+.page-end>.backlinks-container>ul>li {
+  font-family: 'JetBrains Mono';
+}
