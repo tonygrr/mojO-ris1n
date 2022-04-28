@@ -101,3 +101,6 @@ a:hover {
   border-radius: 5px;
   font-size: 1.02em;
 }
+.internal-link:hover {
+  background-color: transparentize(#8f9fa9, 0.85);
+}
