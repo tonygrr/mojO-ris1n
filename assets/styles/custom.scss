@@ -63,9 +63,21 @@ body {
   }
 }
 
-/* TOC color */
+/* TOC */
+/* color */
 .mainTOC {
   background: var(--lightpastel);
   border-radius: 5px;
   padding: .75em 1em;
+}
+/* header */
+.mainTOC details summary {
+  cursor: pointer;
+  font-family: 'JetBrains Mono';
+  color: var(--dark);
+  font-weight: 800;
+  font-size: 17px;
+}
+.mainTOC details[open] summary {
+  cursor: pointer;
 }
