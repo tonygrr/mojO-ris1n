@@ -10,6 +10,7 @@
   --lightgray: #f0f0f0;
   --outlinegray: #dadada;
   --lightpastel: #d4d0cba8;
+  --italic:#009688;
 }
 
 [saved-theme="dark"] {
@@ -23,6 +24,7 @@
   --lightgray: #292633 !important;
   --outlinegray: #343434 !important;
   --lightpastel: #372a45a3;
+  --italic:#7257a1;
 }
 
 /* Img */
@@ -87,10 +89,10 @@ body {
 /* Backlink */
 .page-end>.backlinks-container>ul>li {
   font-family: 'JetBrains Mono';
+  font-size:0.9em;
 }
 .backlinks a {
   font-weight: 600;
-  font-size:1em;
 }
 
 /* HR */
@@ -108,4 +110,9 @@ a:hover {
 }
 .internal-link:hover {
   background-color: transparentize(#8f9fa9, 0.85);
+}
+
+em {
+  font-style: italic;
+  color:var(--italic);
 }
