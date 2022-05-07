@@ -1,5 +1,5 @@
 enableLegend: true
-enableDrag: false
+enableDrag: true
 enableZoom: false
 depth: 2 # set to -1 to show full graph
 paths:
