@@ -4,6 +4,7 @@ openToc: false
 enableLinkPreview: false
 enableLatex: true
 enableSPA: true
+enableContextualBacklinks: true
 description:
   Тестовая страничка в сети.
 page_title:

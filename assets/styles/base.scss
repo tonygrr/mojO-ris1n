@@ -460,7 +460,7 @@ header {
     }
 
     & > #results-container {
-      & > .result-card {
+      & .result-card {
         padding: 1em;
         cursor: pointer;
         transition: background 0.2s ease;
@@ -497,15 +497,15 @@ header {
         & > h3, & > p {
           margin: 0;
         }
-
-        & .search-highlight {
-          background-color: #afbfc966;
-          padding: 0.05em 0.2em;
-          border-radius: 3px;
-        }
       }
     }
   }
+}
+
+.search-highlight {
+  background-color: #afbfc966;
+  padding: 0.05em 0.2em;
+  border-radius: 3px;
 }
 
 .section-ul {
@@ -588,7 +588,7 @@ header {
     font-size: 0.8rem;
   }
 
-  & > p {
+  & > p, & > a {
     margin: 0;
     font-weight: 400;
     user-select: none;
